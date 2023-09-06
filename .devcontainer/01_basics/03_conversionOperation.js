@@ -29,8 +29,8 @@
 
 // ************************** Operations **************************
 
-let value = 3
-let nefValue = -value 
+// let value = 3
+// let nefValue = -value 
 // console.log(nefValue);
 
 // console.log(2+2);
@@ -55,11 +55,18 @@ let nefValue = -value
 // console.log(+true);
 // console.log(+"");
 
-let num1, num2 , num3 
+// let num1, num2 , num3 
 
-num1 = num2 = num3 = 2+2 
+// num1 = num2 = num3 = 2+2 
 
-let gameCounter = 100
-++gameCounter;
-console.log(gameCounter);
+// let gameCounter = 100
+// gameCounter++;
+// console.log(gameCounter);
 
+let x = 20 ;
+x++;
+console.log(x); //แบบนี้ Output จะออกเป็น 21 เนื่องจากไม่ได้ใส่ตัวแปร ถ้าใส่ตัวแปรค่าจะไม่ขึ้น *ต้องหาคำตอบ
+
+let a = 20;
+let y = a++;
+console.log(y); //แบบนี้ Output ที่จะออกเป็น 20 เนื่องจากค่าที่เพิ่มมาไม่ขึ้น *ต้องหาคำตอบ
