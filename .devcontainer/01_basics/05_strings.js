@@ -34,4 +34,5 @@ console.log(url.includes('Rockmafia')); // ค้นหาตัวอักษ�
 
 console.log(rockName.split("-"));
 
-
+console.log(rockName.anchor("Tailwind")); //จะแปลงเป็น Tag <a name="Tailwind">Praveen-Misser-Rock</a> ถ้าใส่ ("แล้วใส่ชื่อจะเป็นชื่อ Class") ถ้าไม่ใส่ก็จะ Undifined 
+console.log(rockName.anchor()); //<a name="undefined">Praveen-Misser-Rock</a>
