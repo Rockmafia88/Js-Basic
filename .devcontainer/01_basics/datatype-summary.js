@@ -1,4 +1,4 @@
-// Primitive
+// Primitive ****
 
 // 7 Types : String, Number, Boolearn, null, undifined, Symbol, BigInt
 
@@ -20,7 +20,7 @@ const bigNumber = 1231239231312319233n //output bigint
 
 
 
-// Reference (Non primitive)
+// Reference (Non primitive) ****
 
 // Array, Objects, Functions
 
@@ -39,3 +39,30 @@ const myFunction = function() {
 }
 
 console.log(typeof bigNumber);
+
+
+
+
+// **********************************  stack and heap memory  ******************************
+
+// Stack(Primitive) , Heap(Non-Primitive) 
+
+let myYoutubename = "Rockmafiarock.com"
+let anotherName = myYoutubename
+anotherName = "Misseryoutuber"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let userOne = {
+    email : "User@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "Rockmafia@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
