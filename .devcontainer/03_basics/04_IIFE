@@ -1,0 +1,11 @@
+//immediately Invoked Fucntion Expresstion (IIFE)
+
+(function chai () {
+    // named IIFE
+    console.log(`DB Connected`);
+})();
+
+(  (name) => { //unname IIFE
+    console.log(`Db Connect ${name}`);
+})("Two")
+
